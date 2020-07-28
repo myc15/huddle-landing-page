@@ -52,7 +52,8 @@ p {
     margin: 5px;
 }
 .btn:hover {
-	background-color:#fde4fc;
+    background-color:#bea6fc;
+    color: white;
 }
 
 /* Footer Section */
@@ -65,6 +66,10 @@ p {
     border: 1px solid white;
     border-radius: 100%;
     margin: 0 5px;
+}
+
+.icon:hover {
+    background-color: #bea6fc;
 }
 
 .fa-facebook-f {

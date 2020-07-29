@@ -81,6 +81,12 @@ p {
     padding-right: 13px;
 }
 
+.attribution {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
 @media (max-width: 1028px) {
     #body-section, #footer-section {
         grid-template-columns: 1fr;
@@ -90,5 +96,9 @@ p {
 
     section {
         padding: 5% 7%;
+    }
+
+    .attribution {
+        margin-top: 20px;
     }
 }
